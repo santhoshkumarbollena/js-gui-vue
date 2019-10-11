@@ -102,6 +102,45 @@
         <p>Learn more at <a href="https://vuejs.org/">Vue.js</a>! </p>
       </article>
 
+      
+
+      
+
+      <article id="coder3" class="col-md-4 ">
+        <h2>Volume</h2>
+      
+        <fieldset class="mt-2">
+          <label >Enter the height:</label>
+          <input v-model="height" id="height" type="text">
+        </fieldset>
+        <fieldset class="mt-2">
+          <label >Enter weight:</label>
+          <input v-model="weight" id="weight" type="text">
+        </fieldset>
+        <fieldset class="mt-2">
+          <label >Enter length:</label>
+          <input v-model="length" id="length" type="text">
+        </fieldset>
+        <p>volume : {{ volume }}</p>
+
+
+      </article>
+
+      <article id="coder2" class="col-md-4 ">
+        <h2>Multiplication</h2>
+      
+        <fieldset class="mt-2">
+          <label for="word">Enter the course name:</label>
+          <input v-model="firstmul" id="firstmul" type="text">
+        </fieldset>
+        <fieldset class="mt-2">
+          <label for="codeword">Enter the maximum length:</label>
+          <input v-model="secondmul" id="secondmul" type="text">
+        </fieldset>
+        <p>mul: {{ mul }}</p>
+      </article>
+     
+
     </div>
 
   </main>
@@ -140,6 +179,8 @@
   <script src="components/adder/adder.js"></script>
   <script src="components/subtracter/subtracter.js"></script>
   <script src="components/coder/coder.js"></script>
+  <script src="components/Multiplication/Multiplication.js"></script>
+  <script src="components/volume/volume.js"></script>
 </body>
 
 </html>
